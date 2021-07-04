@@ -43,7 +43,7 @@ function deleteFilm(e){
         Storage.deleteFilmFromStorage(e.target.parentElement.previousElementSibling.previousElementSibling.textContent)
     }
 
-    ui.displayMessages("Silme işlemi tamamlandı","success")
+    UI.displayMessages("Silme işlemi tamamlandı","success")
 }
 
 function clearAllFilms(){
